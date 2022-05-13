@@ -1,0 +1,140 @@
+body{margin:0px; padding:0px; /*background:#d4ce87;*/ overflow: hidden; /*background-attachment: fixed;*/}
+
+html{
+  scroll-behavior:smooth;
+}
+
+li{list-style-type: none;}
+
+h1{
+  text-align:center;
+}
+
+li a {
+  text-decoration: none;
+  color:black;
+}
+
+.b{
+  position:absolute; right:485px; bottom:360px;
+}
+
+.n{
+  position:absolute; right:1190px; bottom:360px;
+}
+
+.m{
+  position:absolute; right:1218px; bottom:180px;
+}
+
+.f{
+  position:absolute; right:315px; bottom:180px;
+}
+
+#bear{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cat{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+#C{
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+
+#M{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+#P{
+  width: 350px;
+  height: 240px;
+}
+
+#Pl{
+  width: 220px;
+  height: 310px;
+}
+
+.Cat{
+  margin-top: -300px;
+  margin-left: 340px;
+}
+
+.Musical{
+  margin-left: 340px;
+}
+
+.Plant{
+  margin-left: 640px;
+  margin-top: 110px;
+}
+
+#container{
+  width:100%;
+  height:100vh; 
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+#sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:11%;
+  height:100%;
+  background-color: #8bac90;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+  color:rgb(2, 22, 13);
+  float:left;
+}
+
+#section1{
+  font-family: 'Rajdhani', sans-serif;
+  width:89%;
+  height:100%;
+  background-color: #e7f0db;
+  float:right;
+  text-align: center;
+}
+
+#section2{
+  font-family: 'Rajdhani', sans-serif;
+  width:89%;
+  height:100%;
+  background-color: #efe3d3;
+  float:right;
+  text-align: center;
+}
+
+#section3{
+  font-family: 'Rajdhani', sans-serif;
+  width:89%;
+  height:100%;
+  background-color: #e4f3d1;
+  float:right;
+  
+}
+
+#section4{
+  font-family: 'Rajdhani', sans-serif;
+  width:89%;
+  height:100%;
+  background-color: #e4e4c7;
+  float:right;
+  
+}
